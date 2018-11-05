@@ -17,13 +17,16 @@ namespace TP_Note
                 uint x = (uint)aleatoire.Next(0, (int)xMax);
                 uint y = (uint)aleatoire.Next(0, (int)yMax);
                 
-                switch (aleatoire.Next(0, 2))
+                switch (aleatoire.Next(0, 3))
                 {
                     case 0:
-                        nuisibles.Add(new Pigeon(x,y));
+                        nuisibles.Add(new Pigeon(x,y,"Pigeon"));
                         break;
                     case 1:
-                        nuisibles.Add(new Rat(x,y));
+                        nuisibles.Add(new Rat(x,y,"Rat"));
+                        break;
+                    case 2:
+                        nuisibles.Add(new PigeonMutant(x, y));
                         break;
                 }
             }

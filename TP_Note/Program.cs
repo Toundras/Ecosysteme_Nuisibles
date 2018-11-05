@@ -14,7 +14,7 @@ namespace TP_Note
             while (ecosysteme.estVivant())
             {
                 ecosysteme.cycle();
-                Console.WriteLine("=============================================");
+                Console.WriteLine("==================================================");
             }
         }
     }

@@ -81,8 +81,13 @@ namespace TP_Note
                 nuisible._etat = Etat.Zombie;
                 nuisible._vitesse = Zombie.Vitesse;
             }
+            // Si le nuisible est un Pigeon mutant, tue obligatoirement le Rat
+            else if (nuisible._etat != Etat.Zombie && this.GetType() != nuisible.GetType() && nuisible.GetType() != typeof(Pigeon) && this.GetType() == typeof(PigeonMutant))
+            {
+                nuisible._etat = Etat.Mort;
+            }
             // Si le Nuisible est un Rat ou un Pigeon, tue aléatoirement un des deux Nuisibles
-            else if (nuisible._etat != Etat.Zombie && this.GetType() != nuisible.GetType())
+            else if (nuisible._etat != Etat.Zombie && this.GetType() != nuisible.GetType() && nuisible.GetType() != typeof(PigeonMutant) && this.GetType() != typeof(PigeonMutant))
             {
                 Random aleatoire = new Random();
                 if (aleatoire.Next(0, 2) == 0)

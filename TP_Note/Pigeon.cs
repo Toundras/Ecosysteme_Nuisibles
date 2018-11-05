@@ -5,9 +5,6 @@ namespace TP_Note
         // Vitesse de déplacement
         public static readonly uint Vitesse = 3;
         
-        public Pigeon(uint x, uint y) : base("Pigeon", x, y, Vitesse, Nuisible.Etat.Vivant)
-        {
-            
-        }
+        public Pigeon(uint x, uint y, string Type) : base(Type, x, y, Vitesse, Nuisible.Etat.Vivant) {}
     }
 }

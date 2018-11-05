@@ -5,7 +5,7 @@ namespace TP_Note
         // Vitesse de déplacement
         public static readonly uint Vitesse = 2;
         
-        public Rat(uint x, uint y) : base("Rat", x, y, Vitesse, Nuisible.Etat.Vivant)
+        public Rat(uint x, uint y, string Type) : base(Type, x, y, Vitesse, Nuisible.Etat.Vivant)
         {
             
         }
