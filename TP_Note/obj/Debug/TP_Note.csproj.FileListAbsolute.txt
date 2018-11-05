@@ -1,0 +1,6 @@
+C:\Users\Camille\RiderProjects\TP_Note\TP_Note\bin\Debug\TP_Note.exe
+C:\Users\Camille\RiderProjects\TP_Note\TP_Note\bin\Debug\TP_Note.pdb
+C:\Users\Camille\RiderProjects\TP_Note\TP_Note\obj\Debug\TP_Note.csprojAssemblyReference.cache
+C:\Users\Camille\RiderProjects\TP_Note\TP_Note\obj\Debug\TP_Note.csproj.CoreCompileInputs.cache
+C:\Users\Camille\RiderProjects\TP_Note\TP_Note\obj\Debug\TP_Note.exe
+C:\Users\Camille\RiderProjects\TP_Note\TP_Note\obj\Debug\TP_Note.pdb
